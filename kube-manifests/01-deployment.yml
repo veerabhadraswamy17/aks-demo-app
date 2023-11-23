@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: homeapp-container
-          image: veerabhadraswami/homeapp:1.4
+          image: aksdemocr01.azurecr.io/demoapp
           ports:
             - containerPort: 80
